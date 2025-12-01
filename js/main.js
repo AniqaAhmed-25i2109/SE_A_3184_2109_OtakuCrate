@@ -1,5 +1,5 @@
 // Console Log 1: Page initialization
-console.log("OtakuCrate website loaded - Student Roll: 25I-XXXX");
+console.log("OtakuCrate website loaded - Student Roll: 25I-2109");
 
 // Console Log 2: Cart system active
 console.log("Shopping cart system initialized");
