@@ -1,0 +1,257 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #222222; 
+  color: #efe8f7;
+  line-height: 1.4;
+  min-height: 100vh;
+}
+
+
+.site-header {
+  background: linear-gradient(90deg, #f6d8ff 0%, #e8c4ff 100%);
+  margin: 16px;
+  padding: 10px 20px;
+  border-radius: 28px;
+  border: 3px solid rgba(140,70,180,0.25);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.25);
+}
+
+.header-inner {
+ 
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.logo-group {
+ 
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-badge {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #ffeaff;
+}
+
+
+.main-nav a {
+  color: #1f1b1b;
+  text-decoration: none;
+  margin-left: 18px;
+  font-weight: 600;
+}
+.page {
+
+  grid-template-columns: 1fr 360px; 
+  gap: 28px;
+  padding: 18px 28px;
+}
+
+
+.content-left {
+  padding: 6px 12px;
+}
+
+.page-title {
+  font-family: "Comic Sans MS", "Trebuchet MS", sans-serif;
+  font-size: 34px;
+  color: #f3d7ff;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+
+.small-badge {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: block;
+  margin: 8px 0 16px;
+  object-fit: cover;
+}
+
+
+.section-title {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 18px;
+  color: #f7e9ff;
+  margin-top: 12px;
+  margin-bottom: 8px;
+}
+
+
+.body-text {
+  color: #e9e1f4;
+  font-size: 14px;
+  margin-bottom: 10px;
+  max-width: 760px; 
+}
+
+
+.highlights {
+  list-style: none;
+  margin: 8px 0 18px;
+  padding-left: 0;
+}
+
+.highlights li {
+  margin: 8px 0;
+  font-size: 14px;
+  color: #efe8f7;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+
+.star {
+  color: #ffd700;
+  font-size: 18px;
+  line-height: 1;
+  margin-top: 2px;
+  text-shadow: 0 1px 0 rgba(0,0,0,0.6);
+}
+
+
+.team-row {
+  display: flex;
+  gap: 18px;
+  margin-top: 10px;
+  align-items: flex-start;
+}
+
+
+.team-member {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+
+.team-photo {
+  width: 84px;
+  height: 84px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: #ffffff;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.6);
+  flex-shrink: 0;
+}
+
+
+.team-info {
+  color: #f3d9ff;
+  font-size: 13px;
+}
+
+.team-name {
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 4px;
+}
+
+.team-role {
+  font-size: 13px;
+  color: #e9e1f5;
+  line-height: 1.2;
+}
+
+.sidebar-right {
+  padding: 6px 12px;
+}
+
+
+.ach-title {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #e6c6ff;
+  font-size: 16px;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+
+.ach-grid {
+ 
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+}
+
+
+.ach-card {
+  background: #ffffff;
+  color: #22121a;
+  border-radius: 12px;
+  padding: 14px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.35);
+}
+
+
+.ach-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: transparent;
+  flex-shrink: 0;
+}
+
+.ach-number {
+  font-weight: 800;
+  font-size: 14px;
+  margin: 0;
+}
+
+.ach-label {
+  font-weight: 600;
+  font-size: 12px;
+  color: #6a4b6d;
+}
+
+.site-footer {
+  background: #f3d6f8; 
+  color: #231f20;
+  padding: 14px 18px;
+  margin: 18px 16px 28px;
+  border-radius: 6px;
+}
+
+.footer-inner {
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.quick-links a {
+  color: #231f20;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 4px;
+}
+
+.footer-right .social {
+  margin-left: 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: transparent;
+  color: #231f20;
+  border: 2px solid rgba(0,0,0,0.08);
+  text-decoration: none;
+  font-weight: 700;
+}
+
