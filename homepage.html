@@ -1,1 +1,104 @@
+!doctype html>
+<html lang="en">
+<head>
+  <script>function notifyHome() {
+    alert("You are on homepage");
+}
+function notifyProduct() {
+    alert("You are on Productpage");
+}
+function notifyaboutus() {
+    alert("You are on aboutus");
+}</script>
+<li><a href="home.html" class="mountain-font" onclick="notifyHome();" >Home</a></li>
+  <link rel="stylesheet" href="homepage.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Otakucrate - Landing (beginner HTML/CSS)</title>
+</head>
+<body>
 
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-group">
+        <img class="logo-badge" src="Screenshot_2025-11-30_210243-removebg-preview.png" alt="Otakucrate badge">
+
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="# homepage.html">Home</a>
+        <a href="# shoppingcart.html">Products</a>
+        <a href="# aboutus.html">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Login</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="hero">
+      <div class="hero-left">
+        <h1 class="brand">otakucrate</h1>
+        <div class="stars" aria-hidden="true">
+          <span class="star">★</span>
+          <span class="star">★</span>
+          <span class="star">★</span>
+        </div>
+
+        <h2 class="tagline"><span class="star-bullet">★</span> Unbox your obsession</h2>
+        <p class="sub">Anime mystery boxes — pick a vibe, get surprised</p>
+      </div>
+    </section>
+    <section class="products" aria-label="Products">
+      <article class="product">
+        <img class="product-img" src="Screenshot 2025-12-01 071218.png" alt="Product 1">
+        <button class="btn btn-outline" type="button">View Details</button>
+        <button class="btn btn-solid" type="button">Shop Now</button>
+      </article>
+
+      <article class="product">
+        <img class="product-img" src="Screenshot 2025-12-01 071229.png" alt="Product 2">
+        <button class="btn btn-outline" type="button">View Details</button>
+        <button class="btn btn-solid" type="button">Shop Now</button>
+      </article>
+
+      <article class="product">
+        <img class="product-img" src="Screenshot 2025-12-01 071239.png" alt="Product 3">
+        <button class="btn btn-outline" type="button">View Details</button>
+        <button class="btn btn-solid" type="button">Shop Now</button>
+      </article>
+    </section>
+
+    <section class="cta">
+      <button class="cta-btn" type="button">JOIN THE OTAKU CLUB TODAY!</button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <p class="quick-links">
+          Quick links:
+          <a href="# aboutus.html ">About</a> |
+          <a href="#">FAQs</a> |
+          <a href="#">Terms</a> |
+          <a href="#">Privacy</a> |
+          <a href="#">Returns</a>
+        </p>
+
+        <p class="contact-info">
+          Contact Info: Email: <a href="mailto:support@otakucrate.com">support@otakucrate.com</a><br>
+          Phone: +92 300 456 7890 (Timings: Mon – Sat, 10 AM – 7 PM PKT)<br>
+          Address: OtakuCrate Studio, 2nd Floor, Creative Plaza, Shahrah‑e‑Faisal, Karachi, Pakistan
+        </p>
+      </div>
+
+      <div class="footer-right" aria-hidden="true">
+        <a class="social" href="#" title="Instagram">IG</a>
+        <a class="social" href="#" title="X / Twitter">X</a>
+        <a class="social" href="#" title="LinkedIn">in</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
