@@ -1,0 +1,107 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page base */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff; /* white page background like the mock margins */
+  color: #efe8f7;
+  padding: 18px;
+}
+
+/* Outer frame that contains the dark area and footer */
+.frame {
+  width: 920px;                 /* desktop width similar to the mock */
+  margin: 0 auto;
+  border: 6px solid #000000;    /* black border around the frame */
+  background: #222222;          /* dark area background */
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* Big dark content area above the footer */
+.content-area {
+  height: 560px;                /* large empty area like the screenshot */
+  background: #222222;
+}
+
+/* Footer bar (rounded pale-pink area sitting above the black bottom edge) */
+.site-footer {
+  background: #f3d6f8;          /* pale pink / lilac */
+  padding: 12px 18px;
+  border-top-left-radius: 18px;
+  border-top-right-radius: 18px;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  margin: 12px;                 /* space inside the dark frame to match look */
+  box-shadow: 0 4px 0 rgba(0,0,0,0.25); /* slight shadow to separate from black area */
+}
+
+/* Inner layout of the footer: left text block + right social icons */
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+/* Left column with quick links and contact info */
+.footer-left {
+  color: #231f20;               /* dark text color for readability on pink */
+  font-size: 13px;
+  line-height: 1.4;
+  max-width: 78%;
+}
+
+/* Quick links line */
+.quick-links a {
+  color: #231f20;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 6px;
+}
+
+/* Contact info styling */
+.contact-info a {
+  color: #231f20;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Timings are slightly muted */
+.timings {
+  color: #6a536a;
+  font-weight: 600;
+}
+
+/* Right column: simple circular social icons */
+.footer-right {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Social icon placeholders (text inside a circle).
+   If you have real icon images, replace these spans with <img src="ICON_SRC" class="social-icon-img"> and remove these styles. */
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: #ffffff;           /* white circle like the mock icons */
+  color: #231f20;
+  font-weight: 800;
+  border: 2px solid rgba(0,0,0,0.08);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  cursor: pointer;
+}
+
+
+
+
